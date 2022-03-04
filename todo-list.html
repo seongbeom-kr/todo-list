@@ -5,7 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo-list</title>
-    <link rel="stylesheet" href="css.styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <form id="login-form" class="hidden">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <button>Log in</button>
+    </form>
+    <h1 class="hidden"></h1>
+    <h2 id="clock">00:00:00</h2>
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+  </body>
 </html>
